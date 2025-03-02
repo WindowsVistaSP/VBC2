@@ -1,0 +1,59 @@
+<html>
+<title>Vista Builds Collection</title>
+<head>
+<link rel="shortcut icon" href="icon.ico" />
+<link id="theme-link" rel="stylesheet" href="">
+<script src="theme.js"></script>
+</head>
+<body>
+<div id="all">
+<div id="top">
+</div>
+<nav class="topnav">
+<a href="index.html">主页</a>
+<a class="topnava" href="">Wiki</a>
+<a href="theme.html">主题</a>
+</nav>
+<div id="main">
+<div id="main_l">
+<h3>Wiki\6.0.5212.winmain.050726 1915(x86)</h>
+<h2></h>
+<p><a href="Wiki.html">返回上一页</a></p>
+<p>此版本于2016年12月19日在BetaArchive上泄露。</p>
+<h3>SKU及其密钥</h>
+<h2></h>
+ <table>
+<tbody>
+<tr><th>版本</th><th>密钥</th></tr>
+<tr><td>Starter</td><td>R93TJ-7R9P9-B9GXM-HPYJM-VDH3W</td></tr>
+<tr><td>Home Basic</td><td>KJ89T-MF23J-XD9X9-WHDF3-DV8X8</td></tr>
+<tr><td>Home Basic N</td><td>CDV26-DG6DG-7DY4J-GHXPR-W8YMT</td></tr>
+<tr><td>Home Premium</td><td>RK83M-X2CQ4-6K2CW-W7HKF-TPTBW</td></tr>
+<tr><td>Professional Standard</td><td>WHPY8-M92RQ-2KMD9-QWQMK-8KV4M</td></tr>
+<tr><td>Professional Standard N</td><td>KFBH3-BX3DC-9YFWJ-Y9D7V-TPCJY</td></tr>
+<tr><td>Professional Enterprise</td><td>MFKHB-RYT8V-H43HR-DC64T-T8YRD</td></tr>
+<tr><td>Ultimate</td><td>GKFV7-F2D9H-QKYXY-777P3-4M73W</td></tr>
+</tbody>
+</table>
+<h3>驱动</h>
+<h2></h>
+</div>
+<div id="main_r">
+<img src="https://s21.ax1x.com/2025/03/02/pEGVwee.png" width=275 height=154>
+<span>编译时间</span>:2005-07-26<br>
+<span>时间炸弹</span>:2006-09-30<br>
+<span>架构</span>:x86<br>
+<span>开发分支</span>:winmain
+</div>
+</div>
+<nav class="bonav">
+<a href="https://space.bilibili.com/3493289055488901">B站</a>
+<a href="https://www.stylestar.win/viewtopic.php?t=818">StyleStar论坛</a>
+<a href="about.html">关于</a>
+</nav>
+<div id="bo">
+</div>
+
+</div>
+</body>
+</html>
