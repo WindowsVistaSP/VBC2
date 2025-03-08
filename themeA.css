@@ -78,12 +78,12 @@ width:1000px;
 height:200px;
 }
 table {
-background: yellow;
-color: black;
+background-color:#DE5C07E6;
+color: white;
     border-collapse: collapse;
   }
 td, th { 
-    border: 1px solid black;
+    border: 1px solid white;
   }
 ol {
 
@@ -99,6 +99,8 @@ margin-bottom: 5px;
 h3 {
     background-color:#DE5C07E6;
     color:#FFFFFF;
+font-size: 20px;
+
 }
 h1,h4,h5,h6 {
 color:#FFFFFF;
