@@ -11,19 +11,33 @@
 </div>
 <nav class="topnav">
 <a href="index.html">主页</a>
-<a class="topnava" href="">Wiki</a>
+<a href="Wiki.html">Wiki</a>
 <a href="theme.html">主题</a>
 </nav>
 <div id="main">
 <div id="main_l">
-<h3>Wiki\6.0.5212.winmain.050726_1915(x86)</h>
+<h1><a href="Wiki.html">Wiki</a>\6.0.5212.winmain.050726_1915(x86)</h>
+<p>此版本于2016年12月19日在BetaArchive上泄露。<a href="https://www.betaarchive.com/forum/viewtopic.php?t=36518">[来源]<a></p>
+<h3>新增特性</h>
 <h2></h>
-<p><a href="Wiki.html">返回上一页</a></p>
-<p>此版本于2016年12月19日在BetaArchive上泄露。</p>
+
+<p>1.Windows Media Player 10（10.0.0.3780）。</p>
+<p>2.包括具有新外观的媒体中心。</p>
+<p>3.帮助与支持中心具有新的外观。</p>
+<p>4.Reset后首个出现Sidebar的版本，默认不启动，包括四个小工具（时钟、相片秀、搜索、RSS），这款Sidebar能拉大到半个屏幕。</p>
+<p>5.引入具有部分Tablet PC特性的手写笔设置。</p>
+<p>6.引入语音控制，但无法正常运行。</p>
+<p>7.引入Windows日历。</p>
+<p>8.引入墨球。</p>
+<p>9.工具栏的尺寸几乎占满了整个任务栏，导致程序的任务条被挤到最右侧（概述图中的任务栏是经过调整的）</p>
+<p><a href="https://www.betaworld.cn/Windows_Vista:6.0.5212.0.winmain.050726-1915">[来源]<a></p>
+
 <h3>SKU及其密钥</h>
 <h2></h>
+<p>在安装时可对应此表来选择自己先要的版本<p>
  <table>
 <tbody>
+
 <tr><th>版本</th><th>密钥</th></tr>
 <tr><td>Starter</td><td>R93TJ-7R9P9-B9GXM-HPYJM-VDH3W</td></tr>
 <tr><td>Home Basic</td><td>KJ89T-MF23J-XD9X9-WHDF3-DV8X8</td></tr>
@@ -35,17 +49,67 @@
 <tr><td>Ultimate</td><td>GKFV7-F2D9H-QKYXY-777P3-4M73W</td></tr>
 </tbody>
 </table>
-<h3>驱动</h>
+<p><a href="https://www.betaworld.cn/Windows_Vista:6.0.5212.0.winmain.050726-1915">[来源]<a></p>
+<h3>Aero</h>
 <h2></h>
-<h3>驱动</h>
+<p>此版本要开启Aero需使用XPDM的显卡驱动</p>
+<p>在安装显卡驱动后导入以下注册表</p>
+
+ <table>
+<tbody>
+<tr><th><p>Windows Registry Editor Version 5.00
+<br>[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DWM]
+<br>"EnableMachineCheck"=dword:00000000</th></tr>
+</tbody>
+</table>
+<p>导入完成后重启系统</p>
+<p>更多效果可以参考此表</p>
+ <table>
+<tbody>
+<tr><th>键值</th><th>效果</th></tr>
+<tr><td>EnableMachineCheck</td><td>0 - 开启Aero<br>其他 - 关闭Aero</td></tr>
+<tr><td>ForceSoftwareD3D</td><td>0 - 使用硬件渲染<br>1 - 强制使用软件渲染；建议在VMware 6.5.x和VMware 12.x及更高版本上使用，以防止屏幕闪烁，但可能会出现一些小的图形伪影。</td></tr>
+<tr><td>Glass</td><td>0 - 禁用Glass窗框<br>1 - 启用Glass窗框</td></tr>
+<tr><td>Blur</td><td>0 - 禁用模糊效果；当强制使用软件渲染并启用Glass时，需要禁用模糊效果<br>1 - 启用模糊效果</td></tr>
+<tr><td>BlurSigma</td><td>1到30之间的十进制值 - 控制模糊强度<br>其他任何值 - 禁用透明度并使边框变为黑色</td></tr>
+<tr><td>Animations</td><td>0 - 禁用Aero动画效果<br>1 - 启用Aero动画效果</td></tr>
+<tr><td>AnimationsShiftKey</td><td>0 - 禁用此选项<br>1 - 启用使用Shift键来减慢动画速度的选项</td></tr>
+<tr><td>RenderClientAreaOnly</td><td>0 - 同时渲染客户端和服务器（DWM）区域<br>1 - 仅渲染应用程序的客户区；窗口边框和标题栏不会被渲染，请谨慎使用！</td></tr>
+</tbody>
+</table>
+<p>注:此版本的3D-Filp是按win+空格触发的，也可以使用Ctrl+Shift+F9开启/关闭Aero</p>
+<p><a href="https://www.bilibili.com/opus/983260439518380036">[来源]<a></p>
+<h3>下载</h>
 <h2></h>
+<p>系统镜像下载</p>
+<p>由于123云盘有1GB免费下载限制，所以我将镜像文件切成了3份，详见</p>
+<p><a href="h1.html">[文件合并方法]<a></p>
+ <table>
+<tbody>
+<tr><td><img src="do1.png"></td><td>5212_winmain_050726-1915_x86.iso.D01</td><td><a href="https://pan.hefamily.net/s/jLnpiL">HF云盘下载</a><br><a href="https://www.123865.com/s/n11cVv-UTDH">123云盘下载</a></td></tr>
+<tr><td><img src="do2.png"></td><td>5212_winmain_050726-1915_x86.iso.D02</td><td><a href="https://pan.hefamily.net/s/5lqZS6">HF云盘下载</a><br><a href="https://www.123865.com/s/n11cVv-STDH">123云盘下载</a></td></tr>
+<tr><td><img src="dav.png"></td><td>5212_winmain_050726-1915_x86.iso.DAV</td><td><a href="https://pan.hefamily.net/s/DOeGiJ">HF云盘下载</a><br><a href="https://www.123865.com/s/n11cVv-lTDH">123云盘下载</a></td></tr>
+</tbody>
+</table>
+<p>Media文件夹、Themes文件夹、Web文件夹、imageres.dll、shell32.dll下载</p>
+ <table>
+<tbody>
+<tr><td><img src="zip.png"></td><td>Media.zip</td><td><a href="https://pan.hefamily.net/s/1G2liQ">HF云盘下载</a><br><a href="https://www.123865.com/s/n11cVv-eTDH">123云盘下载</a></td></tr>
+<tr><td><img src="zip.png"></td><td>Themes.zip</td><td><a href="https://pan.hefamily.net/s/NbJ5t1">HF云盘下载</a><br><a href="https://www.123865.com/s/n11cVv-tTDH">123云盘下载</a></td></tr>
+<tr><td><img src="zip.png"></td><td>Web.zip</td><td><a href="https://pan.hefamily.net/s/2qK9tq">HF云盘下载</a><br><a href="https://www.123865.com/s/n11cVv-iTDH">123云盘下载</a></td></tr>
+<tr><td><img src="dll.png"></td><td>imageres.dll</td><td><a href="https://pan.hefamily.net/s/3V35U0">HF云盘下载</a><br><a href="https://www.123865.com/s/n11cVv-zTDH">123云盘下载</a></td></tr>
+<tr><td><img src="dll.png"></td><td>shell32.dll</td><td><a href="https://pan.hefamily.net/s/KvLPFV">HF云盘下载</a><br><a href="https://www.123865.com/s/n11cVv-LTDH">123云盘下载</a></td></tr>
+</tbody>
+</table>
 </div>
 <div id="main_r">
 <img src="https://s21.ax1x.com/2025/03/02/pEGVwee.png" width=275 height=154>
-<span>编译时间</span>:2005-07-26<br>
-<span>时间炸弹</span>:2006-09-30<br>
-<span>架构</span>:x86<br>
-<span>开发分支</span>:winmain
+<p>编译时间:2005-07-26</p>
+<p>时间炸弹:2006-09-30</p>
+<p>架构:x86<p>
+<p>开发分支:winmain</p>
+<p>密钥:<br>见表格</p>
+<p>SKU:<br>见表格</p>
 </div>
 </div>
 <nav class="bonav">
