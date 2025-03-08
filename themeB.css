@@ -78,9 +78,9 @@ width:1000px;
 height:200px;
 }
 table {
-
+background-color:#014D7EE6;
 color: white;
-    border-collapse: collapse;
+border-collapse: collapse;
   }
 td, th { 
     border: 1px solid white;
@@ -99,6 +99,8 @@ margin-bottom: 5px;
 h3 {
     background-color:#014D7EE6;
     color:#FFFFFF;
+font-size: 20px;
+
 }
 h1,h4,h5,h6 {
 color:#FFFFFF;
