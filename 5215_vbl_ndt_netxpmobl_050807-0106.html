@@ -1,1 +1,134 @@
 
+<html>
+<title>Vista Builds Collection</title>
+<head>
+<link rel="shortcut icon" href="icon.ico" />
+<link id="theme-link" rel="stylesheet" href="">
+<script src="theme.js"></script>
+</head>
+<body>
+<div id="all">
+<div id="top">
+</div>
+<nav class="topnav">
+<a href="index.html">主页</a>
+<a href="Wiki.html">Wiki</a>
+<a href="theme.html">主题</a>
+</nav>
+<div id="main">
+<div id="main_l">
+<h1><a href="Wiki.html">Wiki</a>\6.0.5215.vbl_ndt_netxpmobl.050807-0106</h>
+<p>此版本于2021年12月25日在BetaWiki Discord#vista-7上泄露。<a href="https://discord.com/channels/305415513503432705/566258736994451456/924266588469854238">[来源]<a></p>
+<h3>新增特性</h>
+<h2></h>
+
+<p>1.支持32位EFI启动。还可以移植到32位Windows XP上。<a href="https://www.bilibili.com/video/BV1wu4y1p7GM">[祥见]<a></p>
+<p>2.安装程序的“Beta 1”字样被更改为“Beta 2”。</p>
+<p>3.磁盘分区页的高级选项默认被隐藏。</p>
+<p>4.Starter和Ultimate具有版本对应的shellbrd.dll贴图。</p>
+<p>5.加入“System Properties”窗口图标。</p>
+<p>6.任务栏新增Network Connections（网络连接）托盘图标。</p>
+<p>7.控制面板添加了Peer-to-Peer（点对点）和Secure Startup（安全启动，后来的BitLocker）小程序。</p>
+<p>8.文件（夹）属性窗口的“以前的版本”栏。</p>
+<p>9.WinSAT更新：</p>
+<p>添加了WinSAT的Aurora功能，可以通过运行winsat aurora来启用。</p>
+<p>运行WinSAT时显示的全部动画不再显示窗口边框。</p>
+<p><a href="https://www.betaworld.cn/Windows_Vista:6.0.5215.0.vbl_ndt_netxpmobl.050807-0106">[来源]<a></p>
+
+<h3>SKU及其密钥</h>
+<h2></h>
+<p>在安装时可对应此表来选择自己想要的版本<p>
+ <table>
+<tbody>
+
+<tr><th>版本</th><th>密钥</th></tr>
+<tr><td>Starter</td><td>R93TJ-7R9P9-B9GXM-HPYJM-VDH3W</td></tr>
+<tr><td>Home Basic</td><td>KJ89T-MF23J-XD9X9-WHDF3-DV8X8</td></tr>
+<tr><td>Home Basic N</td><td>CDV26-DG6DG-7DY4J-GHXPR-W8YMT</td></tr>
+<tr><td>Home Premium</td><td>RK83M-X2CQ4-6K2CW-W7HKF-TPTBW</td></tr>
+<tr><td>Professional Standard</td><td>WHPY8-M92RQ-2KMD9-QWQMK-8KV4M</td></tr>
+<tr><td>Professional Standard N</td><td>KFBH3-BX3DC-9YFWJ-Y9D7V-TPCJY</td></tr>
+<tr><td>Professional Enterprise</td><td>MFKHB-RYT8V-H43HR-DC64T-T8YRD</td></tr>
+<tr><td>Ultimate</td><td>GKFV7-F2D9H-QKYXY-777P3-4M73W</td></tr>
+</tbody>
+</table>
+<p><a href="https://www.betaworld.cn/Windows_Vista:6.0.5215.0.vbl_ndt_netxpmobl.050807-0106">[来源]<a></p>
+<h3>Aero</h>
+<h2></h>
+<p>此版本要开启Aero需使用XPDM的显卡驱动</p>
+<p>在安装显卡驱动后导入以下注册表</p>
+
+ <table>
+<tbody>
+<tr><th><p>Windows Registry Editor Version 5.00
+<br>[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DWM]
+<br>"EnableMachineCheck"=dword:00000000</th></tr>
+</tbody>
+</table>
+<p>导入完成后重启系统</p>
+<p>更多效果可以参考此表</p>
+ <table>
+<tbody>
+<tr><th>键值</th><th>效果</th></tr>
+<tr><td>EnableMachineCheck</td><td>0 - 开启Aero<br>其他 - 关闭Aero</td></tr>
+<tr><td>ForceSoftwareD3D</td><td>0 - 使用硬件渲染<br>1 - 强制使用软件渲染；建议在VMware 6.5.x和VMware 12.x及更高版本上使用，以防止屏幕闪烁，但可能会出现一些小的图形伪影。</td></tr>
+<tr><td>Glass</td><td>0 - 禁用Glass窗框<br>1 - 启用Glass窗框</td></tr>
+<tr><td>Blur</td><td>0 - 禁用模糊效果；当强制使用软件渲染并启用Glass时，需要禁用模糊效果<br>1 - 启用模糊效果</td></tr>
+<tr><td>BlurSigma</td><td>1到30之间的十进制值 - 控制模糊强度<br>其他任何值 - 禁用透明度并使边框变为黑色</td></tr>
+<tr><td>Animations</td><td>0 - 禁用Aero动画效果<br>1 - 启用Aero动画效果</td></tr>
+<tr><td>AnimationsShiftKey</td><td>0 - 禁用此选项<br>1 - 启用使用Shift键来减慢动画速度的选项</td></tr>
+<tr><td>RenderClientAreaOnly</td><td>0 - 同时渲染客户端和服务器（DWM）区域<br>1 - 仅渲染应用程序的客户区；窗口边框和标题栏不会被渲染，请谨慎使用！</td></tr>
+</tbody>
+</table>
+<p>注:此版本的3D-Filp是按win+空格触发的，也可以使用Ctrl+Shift+F9开启/关闭Aero</p>
+<p><a href="https://www.bilibili.com/opus/983260439518380036">[来源]<a></p>
+<h3>下载</h>
+<h2></h>
+<p>系统镜像下载</p>
+<p>由于123云盘有1GB免费下载限制，所以我将镜像文件切成了若干份，详见</p>
+<p><a href="h1.html">[文件合并方法]<a></p>
+ <table>
+<tbody>
+<tr><td><img src="do1.png"></td><td>5212_winmain_050726-1915_x86.iso.D01</td><td><a href="https://pan.hefamily.net/s/R5jvu5">HF云盘下载</a><br><a href="https://www.123865.com/s/n11cVv-9QDH">123云盘下载</a></td></tr>
+<tr><td><img src="do2.png"></td><td>5212_winmain_050726-1915_x86.iso.D02</td><td><a href="https://pan.hefamily.net/s/Yj1Vsy">HF云盘下载</a><br><a href="https://www.123865.com/s/n11cVv-AQDH">123云盘下载</a></td></tr>
+<tr><td><img src="dav.png"></td><td>5212_winmain_050726-1915_x86.iso.DAV</td><td><a href="https://pan.hefamily.net/s/alqdHV">HF云盘下载</a><br><a href="https://www.123865.com/s/n11cVv-HQDH">123云盘下载</a></td></tr>
+</tbody>
+</table>
+<p>Media文件夹、Themes文件夹、Web文件夹、imageres.dll、shell32.dll、WinSAT.exe下载</p>
+ <table>
+<tbody>
+<tr><td><img src="zip.png"></td><td>Media.zip</td><td><a href="https://pan.hefamily.net/s/kJgxhd">HF云盘下载</a><br><a href="https://www.123865.com/s/n11cVv-vQDH">123云盘下载</a></td></tr>
+<tr><td><img src="zip.png"></td><td>Themes.zip</td><td><a href="https://pan.hefamily.net/s/xRDPUq">HF云盘下载</a><br><a href="https://www.123865.com/s/n11cVv-V9DH">123云盘下载</a></td></tr>
+<tr><td><img src="zip.png"></td><td>Web.zip</td><td><a href="https://pan.hefamily.net/s/ZqNYi0">HF云盘下载</a><br><a href="https://www.123865.com/s/n11cVv-y9DH">123云盘下载</a></td></tr>
+<tr><td><img src="dll.png"></td><td>imageres.dll</td><td><a href="https://pan.hefamily.net/s/MeODi5">HF云盘下载</a><br><a href="https://www.123865.com/s/n11cVv-dQDH">123云盘下载</a></td></tr>
+<tr><td><img src="dll.png"></td><td>shell32.dll</td><td><a href="https://pan.hefamily.net/s/QGdJHv">HF云盘下载</a><br><a href="https://www.123865.com/s/n11cVv-j9DH">123云盘下载</a></td></tr>
+<tr><td><img src="exe.png"></td><td>WinSAT.exe</td><td><a href="https://pan.hefamily.net/s/63NnUz">HF云盘下载</a><br><a href="https://www.123865.com/s/n11cVv-q9DH">123云盘下载</a></td></tr>
+</tbody>
+</table>
+<h3>Bug和问题</h>
+<h2></h>
+<p>1.安装后时间炸弹是0天，需重启以修复。<p>
+<p>2.从Windows XP升级可能会阻止用户登录，并出现Interactive logon process initialization has failed.错误。<p>
+<p><a href="https://www.betaworld.cn/Windows_Vista:6.0.5215.0.vbl_ndt_netxpmobl.050807-0106">[来源]<a></p>
+</div>
+<div id="main_r">
+<img src="https://s21.ax1x.com/2025/03/15/pEaaxIO.png" width=275 height=154>
+<p>编译时间:2005-08-07</p>
+<p>时间炸弹:2006-09-30</p>
+<p>架构:x86<p>
+<p>开发分支:vbl_ndt_netxpmobl</p>
+<p>密钥:<br>见表格</p>
+<p>SKU:<br>见表格</p>
+</div>
+</div>
+<nav class="bonav">
+<a href="https://space.bilibili.com/3493289055488901">B站</a>
+<a href="https://www.stylestar.win/viewtopic.php?t=818">StyleStar论坛</a>
+<a href="about.html">关于</a>
+</nav>
+<div id="bo">
+</div>
+
+</div>
+</body>
+</html>
