@@ -1,5 +1,5 @@
 ﻿<?php
-require 'PHPMailer/get_oauth_token.php';
+require 'vendor/autoload.php';
 
 $time1 = date('Y-m-d');
 $email_fa = '2544851115@qq.com';
