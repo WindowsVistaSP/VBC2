@@ -1,0 +1,81 @@
+<html>
+<title>Vista Builds Collection</title>
+<head>
+<link rel="shortcut icon" href="icon.ico" />
+<link id="theme-link" rel="stylesheet" href="">
+<script src="theme.js"></script>
+</head>
+<body>
+<div id="all">
+<div id="top">
+</div>
+<nav class="topnav">
+<a href="index.html">主页</a>
+<a href="wiki.html">Wiki</a>
+<a href="theme.html">主题</a>
+<a class="topnava" href="">反馈</a>
+</nav>
+<div id="main">
+<h1><center>反馈</center></h>
+<h2></h>
+<p>如果您发现页面有问题或有好的建议可以在这里进行反馈</p>
+<p>反馈页面使用了EmailJS提供的邮件服务，因此您可以不用任何账户便可以直接向我发送建议</p>
+<p>严禁发送内容重复或不正当的消息</p>
+<br>
+<h3>反馈栏</h>
+<h2></h>
+<form id="form">
+
+    <p>你的名称（填一个您喜欢的名字，此名称将会显示为发件人的名称）</p>
+    <input type="text" style="width: 200px; height: 20px;" name="name" id="name">
+<br>
+   <p>联系方式（选填）</p>
+    <input type="text" style="width: 200px; height: 20px;" name="email" id="email">
+<br>
+    <p>正文（可以使用html格式，如需上传图片可以使用图床生成URL并用<img>标签插入）</p>
+
+<textarea style="width: 300px; height: 200px;" name="message" id="message"></textarea>
+<br>
+<input type="submit" id="button" value="发送" >
+</form>
+
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('mGCiPAPDCiU8y0-EQ')
+</script>
+<script>
+const btn = document.getElementById('button');
+
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = '发送中...';
+
+   const serviceID = 'default_service';
+   const templateID = 'template_1ctgg2n';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = '发送';
+      alert('发送成功');
+    }, (err) => {
+      btn.value = '发送';
+      alert(JSON.stringify(err));
+    });
+});
+</script>
+
+</div>
+<nav class="bonav">
+<a href="https://space.bilibili.com/3493289055488901">B站</a>
+<a href="https://www.stylestar.win/viewtopic.php?t=818">StyleStar论坛</a>
+<a href="about.html">关于</a>
+</nav>
+<div id="bo">
+</div>
+</div>
+</body>
+</html>
