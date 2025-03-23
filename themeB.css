@@ -35,13 +35,18 @@ height:30px;
 nav a{
 text-decoration:none;
 line-height:30px;
-margin-left:50px;
-margin-right:50px;
+margin-left:20px;
+margin-right:20px;
 color:#FFFFFF;
 font-weight:bold;
 }
 nav a:hover{
 color:#FFFFFF;
+background-color:#FFFFFF4D;
+}
+nav a:active{
+color:#FFFFFF;
+background-color:#5555554D;
 }
 .topnava{
 color:#FFFFFF;
@@ -80,7 +85,7 @@ height:200px;
 table {
 background-color:#014D7EE6;
 color: white;
-border-collapse: collapse;
+    border-collapse: collapse;
   }
 td, th { 
     border: 1px solid white;
@@ -109,4 +114,42 @@ p{
 font-size: 16px;
 
 color:#FFFFFF;
+}
+#window{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 200px;
+  z-index: 999;
+  padding: 20px;
+}
+#windowmain{
+  z-index: 1000;
+}
+table#windowtable{
+  width: 300px;
+  height: 200px;
+    border-collapse: collapse;
+border: 1px solid white;
+color: white;
+}
+
+tr#window-t{
+background-image: url("navbarB.jpg"); 
+background-size: cover;
+  width: 300px;
+  height: 40px;
+}
+tr#window-p{
+background-color:#014D7EE6;
+  position: relative;
+  width: 300px;  
+  height: 160px;
+}
+tr#window-p button {
+  position: absolute;
+  bottom: 10;
+  right: 15;
 }
