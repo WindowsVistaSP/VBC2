@@ -71,9 +71,21 @@ background-color:#014D7EE6;
 }
 
 #main a{
+text-decoration:none;
 color:#00FFFF;
 }
+#main a:hover{
+text-decoration:none;
+color:#00FFFF;
+background-color:#FFFFFF4D;
+}
+#main a:active{
+text-decoration:none;
+color:#00FFFF;
+background-color:#5555554D;
+}
 #main a:visited{
+text-decoration:none;
 color:#00FFFF;
 }
 
